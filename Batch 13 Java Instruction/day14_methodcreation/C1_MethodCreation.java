@@ -28,6 +28,7 @@ public class C1_MethodCreation {
 		
 		str.indexOf("va", 1); //
 		
+		System.out.println(str.indexOf("va", 1));
 
 	}
 

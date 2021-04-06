@@ -1,0 +1,14 @@
+Interfaces : interface class degildir, interface interface'dir
+Interface, içinde sadece child class'larýn implement etmek zorunda oldugu abstract 
+method'lar olan bir þablon gibidir...(to do list gibi(yapýlacaklar listesi)).
+// NOT : Interface concrete method içeremez sadece abstractv class'lardan oluþur
+// NOT : Interface sadece abstract class'lar dan oluþur.
+Bir Interface'de tüm method'lar abstract ve public'dir.(yazýlsa'da yazýlmasa da).
+Bir Interface'de tüm variable ler public ,static, ve final 'dýr. :D (yazýlsa'da yazýlmasa da).
+Bu yüzden variable'lara mutlaka deger atanmalýdýr. (yoksa CTE verir.)
+Interface'de constructor yoktur dolayýsýyla instantiate edilemezler.!!yani Interface'den obje oluþturulamaz.
+Bir class'ý Interface'e child yapmak için implements keyword kullanýlýr.Birden fazla Interface'e implements edilebilir8önemli özellik)
+ile child olunabilir.Bu durumda bir kere implements yazýlýp sonra tum parent interface 'ler virgul ile ayrýlarak art arda yazýlýr
+Ancak interface'i interface'e child yapmak için extends fakat interface'i farklý bir class'a child yapmak için implements yapýlýr
+Hýz açýsýnda abstract class'a göre yavaþtýr.
+
