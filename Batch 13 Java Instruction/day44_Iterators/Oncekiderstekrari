@@ -1,0 +1,20 @@
+Önceki dersten aklýmýzda kalanlar :
+
+
+1-)Iterator : Collections'da elemanlar arasýnda gezinmeye  ve elemanlar üzerinden degisiklikler yapmaya yarar.
+
+2-)Özellikle index yapýsýna sahip olmayan collections için tum elemanlara ulasabýlecegýmýz forEach loop elemanlarý kalýcý 
+olarak degýstýremedýgýmýzden iterator kullanýrýz.
+
+3-)Iterator interface oldugu için direk obje olusturmamýz mumkun degýldýr bunun yerýne 
+kullanacagýmýz collection ismini yazýp "." kullanarak iterator  method'unu cagýrabýlýrýz.
+
+4-)ýterator elemanlar arasýnda sadece ileri yonlu hareketler yapabilir çünkü next(), hasNext(), remove()
+ve forEachRemaining() method'larýna sahiptir.
+
+5-)ListIterator, ýterator2in child interface'idir. ama hem ileri hem de geri haraket saglayacak  daha 
+fazla method'a sahiptir.
+
+6-)Iterator ile çalýsýrken imlec'in nerede oldugu cok onemlýdýr. Dolayýsýyla kodumuz calýsmadan once ve sonra 
+imlec'in konumunu dikkate almamiz gerekir. 
+

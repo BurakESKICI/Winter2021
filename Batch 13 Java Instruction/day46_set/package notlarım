@@ -1,0 +1,45 @@
+1-)  hash : yönteminde ilk baþta kitaplýk oluþturulurken belirlenen özelliðe göre sýralandýðýndan
+daha sonrasýnda aram yaparken Java arka planda hýzlý çalýþýr.
+
+2-) (1.yol)mesela diyelimki kitaplýkta ayný rafa 2 tane öge geldi diyelim ozaman o rafta artýk bir linkedlist
+oluþturulur ve sýrayla en son gelen yazýlýr o rafa 
+
+3-) (2.yol)2. bir yöntemde var bu hash yani kitaplýk modunda linkedlist olarak yapýlan 1. yol tek raf için
+ ama diyelimki raf dolu diyor ve o rafa koyamýyor ozaman o sayýnýn en sonki rakamýna en sonki rakamý
+  eklenerek çýkan sayýncý rafa koyar(NOT : bu yazdýgýmýzý biz uydurduken sonki rakamý ekler felan diye aslýnda 
+  hash mantýgýnda hýzlý davranmasý için buna benzer bi methodlar uygulayabilir demek istedik)
+  
+4-)Set'i direk liste olsutrumak için olusturamam örnek
+Set<String> set1= new Set<>(); ==> bu þekilde izin vermez çünkü Set interface bunun classlarýndan kullanabilirim
+ Set<String> set1= new HashSet<>(); ==> bu þekiled 
+ 
+ 5-) ayrýca bu method'da ayný deger set'e eklenmeye çalýþýlýrsa o eleman önceki ayný oldugu elemanla
+ ayný referans'a götürülür ve ekranda print yaptýgýnda fazladan gözükmez.
+ 
+ 
+ 6-)Ayrýca eklediðimiz elemanlarý sýralý verir kitaplýk mantýðý :D
+ 
+ 7-)bir Hash collection olusturdugumuzda ilk kez arka planda Java 16 raflýk bir Bucket olusturur. 
+ ve gelen elemanlarý buralara yerleþtirmeye baþlar
+ 
+ 8-) olusturulan bucket'larýn %75'i doldugunda yeni bir 16 Lýk daha açar Java bu iþlemede Load factor denir.
+ 
+ 9-)Hash Collision : bu ise ayný eleman tekrar kullanýlýrýsa bu hash collection onu öncekinin rweferansýna baglar 
+ ekranda gozukmez ama 
+ 
+ 10-)array'deki elemanlarý for each ile sýraladýk ve tekraralarýndan kurtulduk 
+ 
+ 
+ 
+ 11-)küçük bir not removeAll methodu true veya false dondurur bi tane bile silebilirse true doner
+  ama hiç silemez ise false döner :D
+  
+  
+  12-)LinkedHashSet :  set dediði için tekrar kabul etmez
+  Linked dediðimiz için elemanlarý sýrayla ekler
+  Linked dediði için ekleme ve remove iþlerinde hýzlý
+  VE Hash  dediði için kitaplýk vardýr ve ayrýca HashSet2den yavastýr.
+  
+  
+  13-)
+ 

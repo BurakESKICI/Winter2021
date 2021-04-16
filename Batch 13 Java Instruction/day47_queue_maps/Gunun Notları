@@ -1,0 +1,52 @@
+
+QUEUE:
+
+1-)kýsaca pRÝORÝTY iþin içine girdiginde java kendi kafasindaki siraya göre siraya
+ koyuyor elemanlarý
+
+ 2-)offer() : method'unda listeye eklenecek son elemaný ekleriz bu method ile fakat
+ eger priority'li bir liste varsa elimzide sýralam olarak sonra eklemez kendi belirledigi
+ bir yere ekler Java .
+ 
+ 3-)Queue'de index ile alakalý hiçbir method yoktur yani istesekte þu indexteki elemaný al 
+ veya bu index deki elemaný sil gibi method'lar kullanamyýz.
+ 
+ 4-) NOT !!! 
+ bir diðer not silme yani remove method'unda ,Queue 'da sýralama ilk ten basladýgý için silerken 
+ en son ki eleman deðil ilk klsiteledigim eleman'dan baþlýyor silmeye 
+ 
+ 5-)remove method olrak her zamanki gibi bi silinceek elemaný bulursa eger onu siler ve true döndürür
+ 
+ 6-)peek() : method'u bize ilk eleman ne ise Queue listesinde onu getirir.
+ 
+ 7-)element()  : method'da hiç eleman kalmadýgý halde bu method döndürülürse excepiton veririr.
+ elemen normal bir liste'de lsite baþýndaki eleman ne ise onu alýr.
+  
+  DEQUE:
+  
+  8-)Deque :double ended diye bilinir (çift taraflý), bu Deque, Queue'nin child versiyonu :D
+  
+  
+  
+  9-)pop()  : bu method ilk eklenen elemaný döndürür ve SÝLER.
+  
+  10-) push() : bu da ilk sýraya yazacagýmýz elemaný eklýyor.
+  
+  
+  
+  
+  MAPs :
+  
+  1-) Multi treading : Ayný zamanda birden fazla iþlem yapmaya denir.
+  
+  2-) birden fazla thread(iþlem) ayný method veya variable'yi kullanýyorsa 
+  hepsi ayný anda calýsamaz, sirayla calismak zorunda 
+  
+  3-) 4 adet map cesidi vardir ;
+  -Hashtable
+  -Hashmap
+  -LinkedHashMap
+  -TreeMap
+  
+  4-)
+  

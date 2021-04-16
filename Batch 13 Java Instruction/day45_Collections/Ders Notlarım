@@ -1,0 +1,38 @@
+Collections'un 3 temel yapýsý vardýr.bunlar==> List, Queue(SIRA), Set(KÜME)
+
+Collection'un 4 öenmli özelliði vardýr==> Linked,(BAGLI), Tree(DOGALSIRALI), Hash , Queue(Ayný zamanda özellik'de)
+
+Set : Set'de küme mantýðý var içerisine istedigin sýrada ekle çýkar normal bir küme gibi kullanýlýr.
+
+
+Queue : elemanlarý sýralarken kuyruk gibi sýra sýra ekler en son eklenen her zaman en son sýradadýr.
+Queue 'de eleman çýkartmak istersem de yine sýrayla çýkarmalýyým kýsaca sýra önemli bu Queue için 
+Bu sýra muhabbetinin özel ismide "FIFO" (FirstInFirstOut).
+
+
+Linked(BAGLI) :Linked'de baðlama muhabbeti var her eklenen eleman en sonki elemana baðlanýr ve
+araya bir eleman eklemek istersem eger o aradaki zinciri koparýr ve arasýna ekler ,normal olarak sýralama degisir.
+silme iþlmeide yapýlabilir ayný þekile istediðin elemaný sildigin elemanýn baglarýný siler yanýnda kalanlar baglanýr
+önemli nokta Linked 2 elemanla birlesmez sadece 1 eleman sadece 1 elemanla birlesir.
+
+
+Tree(DOGALSIRALI) : bir sayý grubunda mesela {3,6,9} var diyelim ve ben 10 eklemek istiyorsam 10'u 9. elemandan sonra ekler
+ayný þekilde 5 ekliycek olursam 3 ve 6'nýn arasýna ekler sýralayarak ekler.
+
+
+Hash : Her eleman olmasý gereken yere koyar (örnek kitaplýk gibi ktaplarý kendi yerlerine dizer,tarih kitaplarý 
+tarihe fen kitaplarý fen'e gider).( aradýðýmýz hýclý bulmak istedigimde )
+
+
+özellikler ve temel yapýlar beraber kullanýlabilir(örnek LinkedHashSet gibi bir method olabilir).
+
+
+
+
+örneðin biz liste yapýtýgýmýzda bu arraylistesi ise belirlenen miktardan fazla ekleyemem illa yeni bir array olusturmam gerekir
+bu yüzden esnek yapýya sahip listelere bakýcaz Queue gibi List gibi bugün bunlara bakýcaz.
+
+**NOT**:LinkedList'in 2 adet parent'ý vardýr.Bunlar Queue ve list'dir yani
+ iki interface'inde tum method'larýný override etmek zorundadýr.
+
+
